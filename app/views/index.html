@@ -1,0 +1,99 @@
+<div id="main-content">
+	<div class="ui basic segments">
+		<div class="ui segment">
+			<div class="ui grid">
+				<div class="eight wide column">
+					<h3 class="ui header">
+						<i class="grey box open icon"></i>
+						<div class="content">
+							<span class="ui grey text">Ubiquity client Installation</span>
+							<div class="sub header">Devtools installation with composer</div>
+						</div>
+					</h3>
+					<pre><code class="language-batch">composer global require phpmv/ubiquity-devtools</code></pre>
+					
+					<h3 class="ui header">
+						<i class="grey plus square icon"></i>
+						<div class="content">
+							<span class="ui grey text">Project creation</span>
+							<div class="sub header">Project creation including an admin interface (webtools)</div>
+						</div>
+					</h3>
+					<pre><code class="language-batch">Ubiquity new firstProject -a</code></pre>
+				</div>
+				<div class="eight wide column">
+					<h3 class="ui header">
+						<i class="grey magic icon"></i>
+						<div class="content">
+							<span class="ui grey text">Project creation via Composer Create-Project</span>
+							<div class="sub header">Project creation including client and admin interface</div>
+						</div>
+					</h3>
+					<pre><code class="language-batch">composer create-project phpmv/ubiquity-project firstProject</code></pre>
+					<div class="ui brown tertiary inverted small segment">
+						The created project contains the client console (devtools), and the web administration module (webtools).
+					</div>
+				</div>
+			</div>
+			<div class="ui vertical divider">
+				or
+			</div>
+		</div>
+
+			<div class="ui basic segment">
+				<h3 class="ui header">
+					<i class="grey play icon"></i>
+					<div class="content">
+						<span class="ui grey text">Local development server</span>
+						<div class="sub header">Development server starting</div>
+					</div>
+				</h3>
+				<pre><code class="language-batch">cd firstProject
+Ubiquity serve</code></pre>
+			</div>
+	</div>
+		<h4 class="ui horizontal divider header">
+		  <i class="tag icon"></i>
+		  What's next ?
+		</h4>
+		<div class="ui horizontal divided list">
+			<div class="item">
+				<i class="help circle blue-color big icon"></i>
+				<div class="content">
+					<div class="header">Guide</div>
+					<div class="description">Guide to discover the framework part by part</div>
+					<a target="_new" href="http://micro-framework.readthedocs.io/en/latest/?badge=latest">Read now</a>
+				</div>
+			</div>
+			<div class="item">
+				<i class="code grey-color big icon"></i>
+				<div class="content">
+					<div class="header">Documentation API</div>
+					<div class="description">Reference documentation for all classes</div>
+					<a target="_new" href="http://api.kobject.net/ubiquity/">Explore now</a>
+				</div>
+			</div>
+			<div class="item">
+				<i class="bug yellow-color big icon"></i>
+				<div class="content">
+					<div class="header">A problem with Composer?</div>
+					<div class="description">Download an application skeleton on github</div>
+					<a target="_new" href="https://github.com/phpMv/ubiquity-skeletons">Download now</a>
+				</div>
+			</div>
+		</div>
+	<div class="ui inverted teal message toasted" id="toToast" style="display:none">
+		<div class="content">
+			<div class="header">
+				What about Ubiquity performances?
+			</div>
+			<p>Ubiquity is tested on independent websites: 
+			<div class="ui inverted list">
+				<div class="item"><i class="star yellow-color icon"></i><div class="content">It is the fastest of the tested frameworks on <a title="See benchmark results on phpbenchmarks.com" href="http://www.phpbenchmarks.com/en/comparator/framework" target="_new">phpbenchmarks.com</a></div></div>
+				<div class="item"><i class="star yellow-color icon"></i><div class="content">Associated with <b>Workerman</b> or <b>Swoole</b>, it competes with C, C++, C# or Java frameworks on <a href="https://www.techempower.com/benchmarks/#section=test&runid=7f65c127-fad2-4a88-a6cb-5333c68362ef&hw=ph&test=update&c=4&o=c" title="See Frameworks benchmark results on techempower.com">TechEmpower Framework Benchmarks</a>.</div></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ script_foot |raw }}

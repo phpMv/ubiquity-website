@@ -1,0 +1,9 @@
+<div class="ui two column grid">
+	{% for element in elements %}
+	<div class="row">
+		<div class="column">{{ element["left"] | raw }}</div>
+		<div class="column">{{ element["right"] | raw }}</div>
+	</div>
+	{% endfor %}
+</div>
+{{ script_foot | raw }}

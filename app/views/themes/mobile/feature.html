@@ -1,0 +1,6 @@
+	{% for element in elements %}
+		{{ element["left"] | raw }}
+		{{ element["right"] | raw }}
+		<div class="ui horizontal divider">-</div>
+	{% endfor %}
+{{ script_foot | raw }}

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Righteous');
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+	background-color: #FCFCFC;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+}
+a{
+	color: #4DA0B0 !important;
+}
+.header-top{
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	margin: 0 !important;
+}
+#small-header{
+	background: #4DA0B0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 10px;
+}
+#small-header h1{
+	color: #333;
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	font-weight: 900;
+	font-family: 'Righteous', cursive;
+	display: inline-block;
+}
+#small-header span{
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	font-family: 'Poiret One', cursive;
+}
+#menu-sticky {
+	background-color: #333;
+	height: 52px;
+	width: 100%!important;
+	z-index: 999;
+}
+#big-header{
+	background: #4DA0B0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 40px;
+}
+.main{
+	margin: 20px;
+	margin-top: 260px;
+}
+#big-header h1{
+	color: #333;
+	margin: 0;
+	font-size: 60px;
+	letter-spacing: 0.02em;
+	font-weight: 900;
+	font-family: 'Righteous', cursive;
+}
+#big-header p{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 0.01em;
+	font-family: 'Poiret One', cursive;
+}
+
+.footer{
+	background-color: #333;
+	padding: 0 0;
+}
+
+.internal-footer{
+	padding: 1em 20px;
+	font-size: 14px;
+	color: #fff;
+	background: #333;
+	direction: ltr;
+}
+
+.ubi-font{
+	font-family: 'Righteous', cursive;
+}
+.blue-color{
+	color: #4DA0B0 !important;
+}
+.grey-color{
+	color: #909F75 !important;
+}
+.yellow-color{
+	color: #D39D38 !important;
+}
+.yellow-bg-color{
+	background-color: #D39D38 !important;
+}/*
+.hljs{
+	padding: 1em;
+	border-radius: 5px;
+}
+pre[class*="language-"], :not(pre) > code[class*="language-"]{
+	background: hsl(0, 3%, 25%);
+}
+pre[class*="language-"]{
+	border: .2em solid hsl(30, 20%, 40%);
+	border-radius: .3em;
+}*/
